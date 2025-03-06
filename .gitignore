@@ -40,3 +40,15 @@ node_modules
 
 #51 project
 Project
+
+# 忽略所有的build
+/build/
+.dockerignore
+
+*.uvprojx
+*.uvoptx
+*.ioc
+*.mxproject
+# 由STM32CubeMX生成的内容全部不纳入版本之中
+/Drivers
+
